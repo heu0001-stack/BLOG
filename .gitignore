@@ -1,0 +1,21 @@
+# local env / secrets
+.venv/
+config.json
+__pycache__/
+*.pyc
+
+# old Blogger-era pipeline, kept locally only
+_archive_blogger/
+content/_work/
+content/_product_shots/
+content/shorts_output/
+content/shorts_scripts/
+content/_music_cache/
+content/products/
+
+# pre-existing, unrelated to the Naver content pipeline
+dashboard/
+content/tools/
+
+# regenerated build output
+content/naver_export.txt
